@@ -4,6 +4,7 @@ import pytz
 import re
 import subprocess
 import os
+import sys
 
 whatsapp_phone_numbers_str = os.environ.get("WHATSAPP_PHONE_NUMBERS", "")
 whatsapp_phone_numbers = whatsapp_phone_numbers_str.split(',')
@@ -50,9 +51,8 @@ for vulnerability in vulnerabilities:
 
     phones_str  = ",".join(whatsapp_phone_numbers)
 
-    curl_body = f'{{ "messaging_product": "whatsapp", "to": "{phones_str}", "type": "text", "text": {{"preview_url": false, "body": "{whatsapp_message}"}} }}'
+    curl_command = f'curl -i -X POST \'https://graph.facebook.com/v18.0/{whatsapp_phone_id}/messages\' -H \'Authorization: Bearer {whatsapp_token}\' -H \'Content-Type: application/json\' -d \'{{ "messaging_product": "whatsapp", "to": "5585996873719", "type": "text", "text": {{ "preview_url": false, "body": "*IBM X-FORCE: NOVA VULNERABILIDADE*\\n\\n*{title}*\\n\\n_{stdcode}_\\n\\nData UTC-3: {reported}\\n\\nTipo: {consequence}\\n\\nExploitability: {exploitability}\\n\\n{description}\\n\\n{", ".join(cve_links)}" }} }}\''
 
-    curl_command = f'curl -i -X POST \'https://graph.facebook.com/v18.0/{whatsapp_phone_id}/messages\' -H \'Authorization: Bearer {whatsapp_token}\' -H \'Content-Type: application/json\' -d \'{{ "messaging_product": "whatsapp", "to": "{phones_str}", "type": "text", "text": {{ "preview_url": false, "body": "*IBM X-FORCE: NOVA VULNERABILIDADE*\\n\\n*{title}*\\n\\n_{stdcode}_\\n\\nData UTC-3: {reported}\\n\\nTipo: {consequence}\\n\\nExploitability: {exploitability}\\n\\n{description}\\n\\n{", ".join(cve_links)}" }} }}\''
 
     print(curl_command)
     subprocess.run(curl_command, shell=True)

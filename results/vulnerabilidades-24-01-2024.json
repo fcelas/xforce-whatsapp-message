@@ -1,0 +1,1525 @@
+{
+  "rows": [
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280259,
+      "updateid": 185532,
+      "inserted": true,
+      "variant": "single",
+      "title": "Mozilla Firefox denial of service",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "risk_level": 6.5,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "None",
+        "integrity_impact": "None",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.7,
+      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T05:00:00Z",
+      "tagname": "mozilla-firefox-cve20240752-dos",
+      "stdcode": [
+        "CVE-2024-0752"
+      ],
+      "platforms_dependent": [
+        "Mozilla Firefox 121"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Denial of Service",
+      "references": [
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-01",
+          "description": "Security Vulnerabilities fixed in Firefox 122"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
+          "link_name": "CVE-2024-0752",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+    }
+  ],
+  "previousPage": "",
+  "nextPage": ""
+}
