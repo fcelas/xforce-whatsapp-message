@@ -51,12 +51,12 @@
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280276,
+      "updateid": 185534,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Google Chrome security bypass",
+      "description": "Google Chrome could allow a remote attacker to bypass security restrictions, caused by insufficient policy enforcement in iOS Security UI. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to bypass security restrictions.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -66,46 +66,46 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240804-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0804"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0804",
+          "link_name": "CVE-2024-0804",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "b84befd5044e6d4d9784c0a7cdc586fa"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280218,
+      "updateid": 185524,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Mozilla Firefox security bypass",
+      "description": "Mozilla Firefox could allow a remote attacker to bypass security restrictions, caused by the failure to update user input timestamp. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to activate or dismiss certain browser prompts and dialogs.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -115,23 +115,25 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240742-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0742"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Mozilla Firefox 121",
+        "Mozilla Firefox ESR 115.6",
+        "Mozilla Thunderbird 115.6"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
           "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
@@ -139,22 +141,32 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-02/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-02",
+          "description": "Security Vulnerabilities fixed in Firefox ESR 115.7"
+        },
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-04/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-04",
+          "description": "Security Vulnerabilities fixed in Thunderbird 115.7"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0742",
+          "link_name": "CVE-2024-0742",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "1f6f935ed873bbe3bf017c3fc2cab062"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280221,
+      "updateid": 185525,
       "inserted": true,
       "variant": "single",
       "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a stack-based buffer overflow in the WebAudio OscillatorNode object. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -172,9 +184,9 @@
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240745-dos",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0745"
       ],
       "platforms_dependent": [
         "Mozilla Firefox 121"
@@ -188,22 +200,22 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0745",
+          "link_name": "CVE-2024-0745",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "49368216a9dbad4d79756e9695686493"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280273,
+      "updateid": 185534,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Google Chrome security bypass",
+      "description": "Google Chrome could allow a remote attacker to bypass security restrictions, caused by insufficient policy enforcement in DevTools. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to bypass security restrictions.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -213,47 +225,47 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240810-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0810"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0810",
+          "link_name": "CVE-2024-0810",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "b84befd5044e6d4d9784c0a7cdc56841"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280269,
+      "updateid": 185533,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Google Chrome integer underflow",
+      "description": "Google Chrome could allow a remote attacker to execute arbitrary code on the system, caused by an integer underflow in WebUI. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to execute arbitrary code on the system.",
+      "risk_level": 8.8,
       "cvss": {
         "version": "3.0",
         "privilegesrequired": "None",
@@ -261,47 +273,47 @@
         "scope": "Unchanged",
         "access_vector": "Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
-        "integrity_impact": "None",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
         "availability_impact": "High",
         "remediation_level": "Official Fix"
       },
-      "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "temporal_score": 7.7,
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240808-underflow",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0808"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Gain Access",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0808",
+          "link_name": "CVE-2024-0808",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "49514103bdcb06252ac00e633f6fbc14"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
+      "xfdbid": 280260,
       "updateid": 185532,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Mozilla Firefox security bypass",
+      "description": "Mozilla Firefox could allow a remote attacker to bypass security restrictions, caused by an error related to specific HSTS configurations. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to HSTS on a subdomain.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -311,20 +323,22 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240753-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0753"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Mozilla Firefox 121",
+        "Mozilla Firefox ESR 115.6",
+        "Mozilla Thunderbird 115.6"
       ],
       "exploitability": "Unproven",
       "consequences": "Denial of Service",
@@ -335,22 +349,32 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-02/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-02",
+          "description": "Security Vulnerabilities fixed in Firefox ESR 115.7"
+        },
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-04/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-04",
+          "description": "Security Vulnerabilities fixed in Thunderbird 115.7"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0753",
+          "link_name": "CVE-2024-0753",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "932702972143b199dd4f1e3a6a0ce5b4"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280223,
+      "updateid": 185530,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Mozilla Firefox security bypass",
+      "description": "Mozilla Firefox could allow a remote attacker to bypass security restrictions, caused by an error when the directive unsafe-inline was set. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to allow the parent Content Security Policy to override the child Content Security Policy.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -360,23 +384,25 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240747-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0747"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Mozilla Firefox 121",
+        "Mozilla Firefox ESR 115.6",
+        "Mozilla Thunderbird 115.6"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
           "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
@@ -384,71 +410,86 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-02/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-02",
+          "description": "Security Vulnerabilities fixed in Firefox ESR 115.7"
+        },
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-04/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-04",
+          "description": "Security Vulnerabilities fixed in Thunderbird 115.7"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0747",
+          "link_name": "CVE-2024-0747",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "3d3199d4e8b00a435f9d875471d04d8a"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
+      "xfdbid": 280264,
       "updateid": 185532,
-      "inserted": true,
+      "updated": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Westermo Lynx 206-F2G cross-site scripting",
+      "description": "Westermo Lynx 206-F2G is vulnerable to cross-site scripting, caused by improper validation of user-supplied input. A remote attacker within the local network could exploit this vulnerability using a specially crafted URL to execute script in a victim's Web browser within the security context of the hosting Web site, once the URL is clicked. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+      "risk_level": 5.7,
       "cvss": {
         "version": "3.0",
         "privilegesrequired": "None",
         "userinteraction": "Required",
         "scope": "Unchanged",
-        "access_vector": "Network",
+        "access_vector": "Adjacent Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
+        "confidentiality_impact": "High",
         "integrity_impact": "None",
-        "availability_impact": "High",
-        "remediation_level": "Official Fix"
+        "availability_impact": "None",
+        "remediation_level": "Unavailable"
       },
-      "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "temporal_score": 5,
+      "remedy": "No remedy available as of January 23, 2024.",
+      "remedy_fmt": "<p>No remedy available as of January 23, 2024.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "westermo-cve202340544-xss",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2023-40544"
       ],
-      "platforms_dependent": [
-        "Mozilla Firefox 121"
+      "platforms_affected": [
+        "Westermo Lynx 206-F2G 4.24"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Cross-Site Scripting",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04",
+          "link_name": "ICSA-24-023-04",
+          "description": "Westermo Lynx 206-F2G"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.westermo.com/",
+          "link_name": "Westermo Web site",
+          "description": "Westermo"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2023-40544",
+          "link_name": "CVE-2023-40544",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
-      "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "report_confidence": "Reasonable",
+      "uuid": "932702972143b199dd4f1e3a6a0cf6d5"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280219,
+      "updateid": 185525,
       "inserted": true,
       "variant": "single",
       "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by an unchecked return value in TLS handshake code. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause a crash in NSS TLS method.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -466,9 +507,9 @@
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240743-dos",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0743"
       ],
       "platforms_dependent": [
         "Mozilla Firefox 121"
@@ -482,23 +523,23 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0743",
+          "link_name": "CVE-2024-0743",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "49368216a9dbad4d79756e96956850c6"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
+      "xfdbid": 280262,
       "updateid": 185532,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Mozilla Firefox code execution",
+      "description": "Mozilla Firefox could allow a remote attacker to execute arbitrary code on the system, caused by memory safety bugs within the browser engine. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability using unknown attack vectors to execute arbitrary code on the vulnerable system or cause a denial of service.",
+      "risk_level": 8.8,
       "cvss": {
         "version": "3.0",
         "privilegesrequired": "None",
@@ -506,24 +547,26 @@
         "scope": "Unchanged",
         "access_vector": "Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
-        "integrity_impact": "None",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
         "availability_impact": "High",
         "remediation_level": "Official Fix"
       },
-      "temporal_score": 5.7,
+      "temporal_score": 7.7,
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240755-code-exec",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0755"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Mozilla Firefox 121",
+        "Mozilla Firefox ESR 115.6",
+        "Mozilla Thunderbird 115.6"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Gain Access",
       "references": [
         {
           "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
@@ -531,22 +574,32 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-02/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-02",
+          "description": "Security Vulnerabilities fixed in Firefox ESR 115.7"
+        },
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-04/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-04",
+          "description": "Security Vulnerabilities fixed in Thunderbird 115.7"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0755",
+          "link_name": "CVE-2024-0755",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "932702972143b199dd4f1e3a6a0ce702"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280278,
+      "updateid": 185534,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Google Chrome security bypass",
+      "description": "Google Chrome could allow a remote attacker to bypass security restrictions, caused by inappropriate implementation in Autofill. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to bypass security restrictions.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -556,47 +609,47 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240809-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0809"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0809",
+          "link_name": "CVE-2024-0809",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "b84befd5044e6d4d9784c0a7cdc59568"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280267,
+      "updateid": 185533,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Google Chrome code execution",
+      "description": "Google Chrome could allow a remote attacker to execute arbitrary code on the system, caused by a use-after-free in WebAudio. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to execute arbitrary code on the system.",
+      "risk_level": 8.8,
       "cvss": {
         "version": "3.0",
         "privilegesrequired": "None",
@@ -604,48 +657,48 @@
         "scope": "Unchanged",
         "access_vector": "Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
-        "integrity_impact": "None",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
         "availability_impact": "High",
         "remediation_level": "Official Fix"
       },
-      "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "temporal_score": 7.7,
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240807-code-exec",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0807"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Gain Access",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0807",
+          "link_name": "CVE-2024-0807",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "49514103bdcb06252ac00e633f6fb000"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280270,
+      "updateid": 185533,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Google Chrome code execution",
+      "description": "Google Chrome could allow a remote attacker to execute arbitrary code on the system, caused by a use-after-free in Reading Mode. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to execute arbitrary code on the system.",
+      "risk_level": 8.8,
       "cvss": {
         "version": "3.0",
         "privilegesrequired": "None",
@@ -653,47 +706,47 @@
         "scope": "Unchanged",
         "access_vector": "Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
-        "integrity_impact": "None",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
         "availability_impact": "High",
         "remediation_level": "Official Fix"
       },
-      "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "temporal_score": 7.7,
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240813-code-exec",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0813"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Gain Access",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0813",
+          "link_name": "CVE-2024-0813",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "49514103bdcb06252ac00e633f6fc80a"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280220,
+      "updateid": 185525,
       "inserted": true,
       "variant": "single",
       "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a wild pointer dereference in JavaScript. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -711,9 +764,9 @@
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240744-dos",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0744"
       ],
       "platforms_dependent": [
         "Mozilla Firefox 121"
@@ -727,22 +780,22 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0744",
+          "link_name": "CVE-2024-0744",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "49368216a9dbad4d79756e969568552c"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280274,
+      "updateid": 185534,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Google Chrome security bypass",
+      "description": "Google Chrome could allow a remote attacker to bypass security restrictions, caused by incorrect security UI in Payments. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to bypass security restrictions.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -752,46 +805,46 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240814-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0814"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0814",
+          "link_name": "CVE-2024-0814",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "b84befd5044e6d4d9784c0a7cdc56dc5"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280224,
+      "updateid": 185530,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Mozilla Firefox security bypass",
+      "description": "Mozilla Firefox could allow a remote attacker to bypass security restrictions, caused by an error related to compromised content process. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to modify document URI.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -801,17 +854,17 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240748-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0748"
       ],
       "platforms_dependent": [
         "Mozilla Firefox 121"
@@ -825,22 +878,22 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0748",
+          "link_name": "CVE-2024-0748",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "3d3199d4e8b00a435f9d875471d05776"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280277,
+      "updateid": 185534,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Google Chrome security bypass",
+      "description": "Google Chrome could allow a remote attacker to bypass security restrictions, caused by inappropriate implementation in Extensions API. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to bypass security restrictions.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -850,46 +903,46 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240811-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0811"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0811",
+          "link_name": "CVE-2024-0811",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "b84befd5044e6d4d9784c0a7cdc58d70"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280275,
+      "updateid": 185534,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Google Chrome security bypass",
+      "description": "Google Chrome could allow a remote attacker to bypass security restrictions, caused by inappropriate implementation in Downloads. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to bypass security restrictions.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -899,46 +952,46 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240805-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0805"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0805",
+          "link_name": "CVE-2024-0805",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "b84befd5044e6d4d9784c0a7cdc57908"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280256,
+      "updateid": 185530,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Mozilla Firefox spoofing",
+      "description": "Mozilla Firefox could allow a remote attacker to conduct spoofing attacks, caused by the repurposing of an about: dialog. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to show the local origin in address bar.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -948,23 +1001,25 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240749-spoofing",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0749"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Mozilla Firefox 121",
+        "Mozilla Firefox ESR 115.6",
+        "Mozilla Thunderbird 115.6"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Gain Access",
       "references": [
         {
           "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
@@ -972,22 +1027,32 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-02/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-02",
+          "description": "Security Vulnerabilities fixed in Firefox ESR 115.7"
+        },
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-04/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-04",
+          "description": "Security Vulnerabilities fixed in Thunderbird 115.7"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0749",
+          "link_name": "CVE-2024-0749",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "3d3199d4e8b00a435f9d875471d081e2"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280222,
+      "updateid": 185525,
       "inserted": true,
       "variant": "single",
       "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by an out-of-bounds write in ANGLE. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to corrupt memory and cause the browser to crash.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -1005,12 +1070,14 @@
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240746-dos",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0746"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Mozilla Firefox 121",
+        "Mozilla Firefox ESR 115.6",
+        "Mozilla Thunderbird 115.6"
       ],
       "exploitability": "Unproven",
       "consequences": "Denial of Service",
@@ -1021,22 +1088,32 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-02/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-02",
+          "description": "Security Vulnerabilities fixed in Firefox ESR 115.7"
+        },
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-04/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-04",
+          "description": "Security Vulnerabilities fixed in Thunderbird 115.7"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0746",
+          "link_name": "CVE-2024-0746",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "49368216a9dbad4d79756e969568721f"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280216,
+      "updateid": 185524,
       "inserted": true,
       "variant": "single",
       "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by an out-of-bounds write in ANGLE. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to corrupt memory and cause the browser to crash.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -1054,12 +1131,14 @@
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240741-dos",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0741"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Mozilla Firefox 121",
+        "Mozilla Firefox ESR 115.6",
+        "Mozilla Thunderbird 115.6"
       ],
       "exploitability": "Unproven",
       "consequences": "Denial of Service",
@@ -1070,23 +1149,33 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-02/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-02",
+          "description": "Security Vulnerabilities fixed in Firefox ESR 115.7"
+        },
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-04/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-04",
+          "description": "Security Vulnerabilities fixed in Thunderbird 115.7"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0741",
+          "link_name": "CVE-2024-0741",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "1f6f935ed873bbe3bf017c3fc2caa845"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280271,
+      "updateid": 185534,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Google Chrome code execution",
+      "description": "Google Chrome could allow a remote attacker to execute arbitrary code on the system, caused by a use-after-free in Passwords. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to execute arbitrary code on the system.",
+      "risk_level": 8.8,
       "cvss": {
         "version": "3.0",
         "privilegesrequired": "None",
@@ -1094,47 +1183,47 @@
         "scope": "Unchanged",
         "access_vector": "Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
-        "integrity_impact": "None",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
         "availability_impact": "High",
         "remediation_level": "Official Fix"
       },
-      "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "temporal_score": 7.7,
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240806-code-exec",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0806"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Gain Access",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0806",
+          "link_name": "CVE-2024-0806",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "b84befd5044e6d4d9784c0a7cdc55adf"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280257,
+      "updateid": 185531,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Mozilla Firefox security bypass",
+      "description": "Mozilla Firefox could allow a remote attacker to bypass security restrictions, caused by a bug in popup notifications delay calculation. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to trick a user into granting permissions.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -1144,23 +1233,25 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240750-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0750"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Mozilla Firefox 121",
+        "Mozilla Firefox ESR 115.6",
+        "Mozilla Thunderbird 115.6"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
           "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
@@ -1168,169 +1259,198 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-02/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-02",
+          "description": "Security Vulnerabilities fixed in Firefox ESR 115.7"
+        },
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-04/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-04",
+          "description": "Security Vulnerabilities fixed in Thunderbird 115.7"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0750",
+          "link_name": "CVE-2024-0750",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "49b366396a669322489b71207524ee97"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
+      "xfdbid": 280265,
       "updateid": 185532,
-      "inserted": true,
+      "updated": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Westermo Lynx 206-F2G cross-site request forgery",
+      "description": "Westermo Lynx 206-F2G is vulnerable to cross-site request forgery, caused by improper validation of user-supplied input. By persuading an authenticated user to visit a malicious Web site, a remote authenticated attacker could send a malformed HTTP request to carry out unintended actions. An attacker could exploit this vulnerability to perform cross-site scripting attacks, Web cache poisoning, and other malicious activities.",
+      "risk_level": 8,
       "cvss": {
         "version": "3.0",
-        "privilegesrequired": "None",
+        "privilegesrequired": "Low",
         "userinteraction": "Required",
         "scope": "Unchanged",
         "access_vector": "Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
-        "integrity_impact": "None",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
         "availability_impact": "High",
-        "remediation_level": "Official Fix"
+        "remediation_level": "Unavailable"
       },
-      "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "temporal_score": 7,
+      "remedy": "No remedy available as of January 23, 2024.",
+      "remedy_fmt": "<p>No remedy available as of January 23, 2024.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "westermo-cve202338579-csrf",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2023-38579"
       ],
-      "platforms_dependent": [
-        "Mozilla Firefox 121"
+      "platforms_affected": [
+        "Westermo Lynx 206-F2G 4.24"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Gain Access",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04",
+          "link_name": "ICSA-24-023-04",
+          "description": "Westermo Lynx 206-F2G"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.westermo.com/",
+          "link_name": "Westermo Web site",
+          "description": "Westermo"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2023-38579",
+          "link_name": "CVE-2023-38579",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
-      "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "report_confidence": "Reasonable",
+      "uuid": "932702972143b199dd4f1e3a6a0d01ef"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280280,
+      "updateid": 185534,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Multiple Yamaha wireless LAN access point devices command execution",
+      "description": "Multiple Yamaha wireless LAN access point devices could allow a remote authenticated attacker to execute arbitrary commands on the system, caused by the use of an active debugging port. By sending a specially crafted request, an attacker could exploit this vulnerability to execute arbitrary commands on the system.",
+      "risk_level": 6.8,
       "cvss": {
         "version": "3.0",
-        "privilegesrequired": "None",
-        "userinteraction": "Required",
+        "privilegesrequired": "High",
+        "userinteraction": "None",
         "scope": "Unchanged",
-        "access_vector": "Network",
+        "access_vector": "Adjacent Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
-        "integrity_impact": "None",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
         "availability_impact": "High",
         "remediation_level": "Official Fix"
       },
-      "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "temporal_score": 6.5,
+      "remedy": "Refer to Yamaha Corporation Web site for patch, upgrade or suggested workaround information. See references.",
+      "remedy_fmt": "<p>Refer to Yamaha Corporation Web site for patch, upgrade or suggested workaround information. See references.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "yamaha-cve202422366-cmd-exec",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-22366"
       ],
-      "platforms_dependent": [
-        "Mozilla Firefox 121"
+      "platforms_affected": [
+        "Yamaha Corporation WLX222 24.00.03",
+        "Yamaha Corporation WLX413 22.00.05",
+        "Yamaha Corporation WLX212 21.00.12",
+        "Yamaha Corporation WLX313 18.00.12",
+        "Yamaha Corporation WLX202 16.00.18"
       ],
-      "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "exploitability": "Not Defined",
+      "consequences": "Gain Access",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "http://jvn.jp/en/vu/JVNVU99896362/index.html",
+          "link_name": "JVNVU#99896362",
+          "description": "Yamaha wireless LAN access point devices vulnerable to active debug code"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "http://www.rtpro.yamaha.co.jp/RT/FAQ/Security/JVNVU99896362.html",
+          "link_name": "Yamaha Corporation Web site",
+          "description": "Regarding \"Vulnerability in Yamaha wireless LAN access points that has a debugging function that can be used\""
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-22366",
+          "link_name": "CVE-2024-22366",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "b84befd5044e6d4d9784c0a7cdc5a674"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280266,
+      "updateid": 185531,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Westermo Lynx 206-F2G cross-site scripting",
+      "description": "Westermo Lynx 206-F2G is vulnerable to cross-site scripting, caused by improper validation of user-supplied input. A remote authenticated attacker within the local network could exploit this vulnerability using the dns.0.server parameter to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+      "risk_level": 5.4,
       "cvss": {
         "version": "3.0",
-        "privilegesrequired": "None",
-        "userinteraction": "Required",
+        "privilegesrequired": "Low",
+        "userinteraction": "None",
         "scope": "Unchanged",
         "access_vector": "Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
-        "remediation_level": "Official Fix"
+        "confidentiality_impact": "Low",
+        "integrity_impact": "Low",
+        "availability_impact": "None",
+        "remediation_level": "Unavailable"
       },
-      "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "temporal_score": 4.8,
+      "remedy": "No remedy available as of January 23, 2024.",
+      "remedy_fmt": "<p>No remedy available as of January 23, 2024.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "westermo-cve202345227-xss",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2023-45227"
       ],
-      "platforms_dependent": [
-        "Mozilla Firefox 121"
+      "platforms_affected": [
+        "Westermo Lynx 206-F2G 4.24"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Cross-Site Scripting",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04",
+          "link_name": "ICSA-24-023-04",
+          "description": "Westermo Lynx 206-F2G"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.westermo.com/",
+          "link_name": "Westermo Web site",
+          "description": "Westermo"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2023-45227",
+          "link_name": "CVE-2023-45227",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
-      "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "report_confidence": "Reasonable",
+      "uuid": "49b366396a669322489b712075250860"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280268,
+      "updateid": 185533,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "title": "Google Chrome security bypass",
+      "description": "Google Chrome could allow a remote attacker to bypass security restrictions, caused by inappropriate implementation in Accessibility. By persuading a victim to visit a specially crafted Web site, an attacker could exploit this vulnerability to bypass security restrictions.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -1340,47 +1460,47 @@
         "access_vector": "Network",
         "access_complexity": "Low",
         "confidentiality_impact": "None",
-        "integrity_impact": "None",
-        "availability_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
       "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
+      "remedy": "Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Google Chrome (121.0.6167.85 or 121.0.6167.86 or later), available from the Google Chrome Releases Web site. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "google-chrome-cve20240812-sec-bypass",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0812"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Google Chrome 121.0"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Bypass Security",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "https://chromereleases.googleblog.com/",
+          "link_name": "Google Chrome Releases Web site",
+          "description": "Stable Channel Update for Desktop"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0812",
+          "link_name": "CVE-2024-0812",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "49514103bdcb06252ac00e633f6fb8e3"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
+      "xfdbid": 280258,
       "updateid": 185532,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Mozilla Firefox privilege escalation",
+      "description": "Mozilla Firefox could allow a remote attacker to gain elevated privileges on the system, caused by an error in the devtools extension. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to gain elevated privileges on the system.",
+      "risk_level": 8.8,
       "cvss": {
         "version": "3.0",
         "privilegesrequired": "None",
@@ -1388,24 +1508,26 @@
         "scope": "Unchanged",
         "access_vector": "Network",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
-        "integrity_impact": "None",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
         "availability_impact": "High",
         "remediation_level": "Official Fix"
       },
-      "temporal_score": 5.7,
+      "temporal_score": 7.7,
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240751-priv-esc",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0751"
       ],
       "platforms_dependent": [
-        "Mozilla Firefox 121"
+        "Mozilla Firefox 121",
+        "Mozilla Firefox ESR 115.6",
+        "Mozilla Thunderbird 115.6"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Gain Privileges",
       "references": [
         {
           "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
@@ -1413,22 +1535,32 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-02/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-02",
+          "description": "Security Vulnerabilities fixed in Firefox ESR 115.7"
+        },
+        {
+          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-04/",
+          "link_name": "Mozilla Foundation Security Advisory 2024-04",
+          "description": "Security Vulnerabilities fixed in Thunderbird 115.7"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0751",
+          "link_name": "CVE-2024-0751",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "932702972143b199dd4f1e3a6a0cd809"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
+      "xfdbid": 280261,
       "updateid": 185532,
       "inserted": true,
       "variant": "single",
       "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
+      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by an error when using some WASM files in devtools. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
       "risk_level": 6.5,
       "cvss": {
         "version": "3.0",
@@ -1446,9 +1578,9 @@
       "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
       "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
       "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "tagname": "mozilla-firefox-cve20240754-dos",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-0754"
       ],
       "platforms_dependent": [
         "Mozilla Firefox 121"
@@ -1462,62 +1594,622 @@
           "description": "Security Vulnerabilities fixed in Firefox 122"
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0754",
+          "link_name": "CVE-2024-0754",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "932702972143b199dd4f1e3a6a0ce695"
     },
     {
       "type": "vulnerability",
-      "xfdbid": 280259,
-      "updateid": 185532,
+      "xfdbid": 280291,
+      "updateid": 185540,
       "inserted": true,
       "variant": "single",
-      "title": "Mozilla Firefox denial of service",
-      "description": "Mozilla Firefox is vulnerable to a denial of service, caused by a use-after-free when applying update on macOS. By persuading a victim to visit a specially crafted Web site, a remote attacker could exploit this vulnerability to cause the browser to crash.",
-      "risk_level": 6.5,
+      "title": "Ministry of Agriculture, Forestry and Fisheries Electronic Delivery Check System XML external entity injection",
+      "description": "Ministry of Agriculture, Forestry and Fisheries Electronic Delivery Check System is vulnerable to an XML external entity injection (XXE) attack when processing XML data, caused by a weakly configured XML parser. By persuading a victim to use specially crafted XML content, a remote attacker could exploit this vulnerability to read arbitrary files, conduct an SSRF attack, or achieve other system impacts.",
+      "risk_level": 3.3,
       "cvss": {
         "version": "3.0",
         "privilegesrequired": "None",
         "userinteraction": "Required",
         "scope": "Unchanged",
-        "access_vector": "Network",
+        "access_vector": "Local",
         "access_complexity": "Low",
-        "confidentiality_impact": "None",
+        "confidentiality_impact": "Low",
         "integrity_impact": "None",
-        "availability_impact": "High",
+        "availability_impact": "None",
         "remediation_level": "Official Fix"
       },
-      "temporal_score": 5.7,
-      "remedy": "Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.",
-      "remedy_fmt": "<p>Refer to Mozilla Foundation Security Advisory 2024-01 for patch, upgrade or suggested workaround information. See References.</p>",
-      "reported": "2024-01-23T05:00:00Z",
-      "tagname": "mozilla-firefox-cve20240752-dos",
+      "temporal_score": 2.9,
+      "remedy": "Refer to Ministry of Agriculture, Forestry and Fisheries Web site for patch, upgrade or suggested workaround information. See references.",
+      "remedy_fmt": "<p>Refer to Ministry of Agriculture, Forestry and Fisheries Web site for patch, upgrade or suggested workaround information. See references.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "miaff-cve202421765-xxe",
       "stdcode": [
-        "CVE-2024-0752"
+        "CVE-2024-21765"
       ],
-      "platforms_dependent": [
-        "Mozilla Firefox 121"
+      "platforms_affected": [
+        "Japanese Ministry of Agriculture, Forestry and Fisheries Electronic Delivery Check System 14.0.001.002"
       ],
       "exploitability": "Unproven",
-      "consequences": "Denial of Service",
+      "consequences": "Gain Access",
       "references": [
         {
-          "link_target": "https://www.mozilla.org/en-US/security/advisories/mfsa2024-01/",
-          "link_name": "Mozilla Foundation Security Advisory 2024-01",
-          "description": "Security Vulnerabilities fixed in Firefox 122"
+          "link_target": "http://jvn.jp/en/jp/JVN77736613/index.html",
+          "link_name": "JVN#77736613",
+          "description": "Improper restriction of XML external entity references (XXE) in MLIT \"Electronic Delivery Check System\" and \"Electronic delivery item Inspection Support System\""
         },
         {
-          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0752",
-          "link_name": "CVE-2024-0752",
+          "link_target": "https://www.maff.go.jp/j/nousin/seko/nouhin_youryou/densi.html",
+          "link_name": "Ministry of Agriculture, Forestry and Fisheries Web site",
+          "description": "Electronic delivery check system (Ministry of Agriculture, Forestry and Fisheries Agriculture and Rural Development Project version)"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-21765",
+          "link_name": "CVE-2024-21765",
           "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
         }
       ],
       "report_confidence": "Confirmed",
-      "uuid": "932702972143b199dd4f1e3a6a0cdb89"
+      "uuid": "3200ea6240985536c9caa5361fa70ca2"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280249,
+      "updateid": 185532,
+      "updated": true,
+      "variant": "single",
+      "title": "Westermo Lynx 206-F2G code execution",
+      "description": "Westermo Lynx 206-F2G could allow a remote authenticated attacker to execute arbitrary code on the system, caused by a code injection vulnerability. An attacker could exploit this vulnerability to execute arbitrary code on the system.",
+      "risk_level": 8,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "Low",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "High",
+        "remediation_level": "Unavailable"
+      },
+      "temporal_score": 7,
+      "remedy": "No remedy available as of January 23, 2024.",
+      "remedy_fmt": "<p>No remedy available as of January 23, 2024.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "westermo-cve202345735-code-exec",
+      "stdcode": [
+        "CVE-2023-45735"
+      ],
+      "platforms_affected": [
+        "Westermo Lynx 206-F2G 4.24"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Gain Access",
+      "references": [
+        {
+          "link_target": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04",
+          "link_name": "ICSA-24-023-04",
+          "description": "Westermo Lynx 206-F2G"
+        },
+        {
+          "link_target": "https://www.westermo.com/",
+          "link_name": "Westermo Web site",
+          "description": "Westermo"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2023-45735",
+          "link_name": "CVE-2023-45735",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Reasonable",
+      "uuid": "932702972143b199dd4f1e3a6a0cc631"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280293,
+      "updateid": 185540,
+      "inserted": true,
+      "variant": "single",
+      "title": "Ministry of Agriculture, Forestry and Fisheries Electronic Delivery Check System XML external entity injection",
+      "description": "Ministry of Agriculture, Forestry and Fisheries Electronic Delivery Check System is vulnerable to an XML external entity injection (XXE) attack when processing XML data, caused by a weakly configured XML parser. By persuading a victim to use specially crafted XML content, a remote attacker could exploit this vulnerability to read arbitrary files, conduct an SSRF attack, or achieve other system impacts.",
+      "risk_level": 3.3,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Local",
+        "access_complexity": "Low",
+        "confidentiality_impact": "Low",
+        "integrity_impact": "None",
+        "availability_impact": "None",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 2.9,
+      "remedy": "Refer to Ministry of Agriculture, Forestry and Fisheries Web site for patch, upgrade or suggested workaround information. See references.",
+      "remedy_fmt": "<p>Refer to Ministry of Agriculture, Forestry and Fisheries Web site for patch, upgrade or suggested workaround information. See references.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "miaff-cve202421796-xxe",
+      "stdcode": [
+        "CVE-2024-21796"
+      ],
+      "platforms_affected": [
+        "Japanese Ministry of Agriculture, Forestry and Fisheries Electronic Delivery Check System 14.0.001.002"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Gain Access",
+      "references": [
+        {
+          "link_target": "http://jvn.jp/en/jp/JVN40049211/index.html",
+          "link_name": "JVN#40049211",
+          "description": "Improper restriction of XML external entity references (XXE) in Electronic Deliverables Creation Support Tool provided by Ministry of Defense"
+        },
+        {
+          "link_target": "https://www.maff.go.jp/j/nousin/seko/nouhin_youryou/densi.html",
+          "link_name": "Ministry of Agriculture, Forestry and Fisheries Web site",
+          "description": "Electronic delivery check system (Ministry of Agriculture, Forestry and Fisheries Agriculture and Rural Development Project version)"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-21796",
+          "link_name": "CVE-2024-21796",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "3200ea6240985536c9caa5361fa71dcb"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280263,
+      "updateid": 185532,
+      "updated": true,
+      "variant": "single",
+      "title": "Westermo Lynx 206-F2G cross-site scripting",
+      "description": "Westermo Lynx 206-F2G is vulnerable to cross-site scripting, caused by improper validation of user-supplied input by the SNMP configuration. A remote authenticated attacker within the local network could exploit this vulnerability using the username parameter to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+      "risk_level": 5.4,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "Low",
+        "userinteraction": "None",
+        "scope": "Changed",
+        "access_vector": "Adjacent Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "Low",
+        "integrity_impact": "Low",
+        "availability_impact": "None",
+        "remediation_level": "Unavailable"
+      },
+      "temporal_score": 4.8,
+      "remedy": "No remedy available as of January 23, 2024.",
+      "remedy_fmt": "<p>No remedy available as of January 23, 2024.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "westermo-cve202342765-xss",
+      "stdcode": [
+        "CVE-2023-42765"
+      ],
+      "platforms_affected": [
+        "Westermo Lynx 206-F2G 4.24"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Cross-Site Scripting",
+      "references": [
+        {
+          "link_target": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04",
+          "link_name": "ICSA-24-023-04",
+          "description": "Westermo Lynx 206-F2G"
+        },
+        {
+          "link_target": "https://www.westermo.com/",
+          "link_name": "Westermo Web site",
+          "description": "Westermo"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2023-42765",
+          "link_name": "CVE-2023-42765",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Reasonable",
+      "uuid": "932702972143b199dd4f1e3a6a0cec1e"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280253,
+      "updateid": 185532,
+      "updated": true,
+      "variant": "single",
+      "title": "Westermo Lynx 206-F2G code execution",
+      "description": "Westermo Lynx 206-F2G could allow a remote attacker within the local network to execute arbitrary code on the system, caused by cross-origin resource sharing. An attacker could exploit this vulnerability to execute arbitrary code on the system.",
+      "risk_level": 6.6,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Changed",
+        "access_vector": "Adjacent Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "High",
+        "integrity_impact": "None",
+        "availability_impact": "None",
+        "remediation_level": "Unavailable"
+      },
+      "temporal_score": 5.8,
+      "remedy": "No remedy available as of January 23, 2024.",
+      "remedy_fmt": "<p>No remedy available as of January 23, 2024.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "westermo-cve202345213-code-exec",
+      "stdcode": [
+        "CVE-2023-45213"
+      ],
+      "platforms_affected": [
+        "Westermo Lynx 206-F2G 4.24"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Gain Access",
+      "references": [
+        {
+          "link_target": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04",
+          "link_name": "ICSA-24-023-04",
+          "description": "Westermo Lynx 206-F2G"
+        },
+        {
+          "link_target": "https://www.westermo.com/",
+          "link_name": "Westermo Web site",
+          "description": "Westermo"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2023-45213",
+          "link_name": "CVE-2023-45213",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Reasonable",
+      "uuid": "932702972143b199dd4f1e3a6a0cd1a7"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280243,
+      "updateid": 185532,
+      "updated": true,
+      "variant": "single",
+      "title": "Westermo Lynx 206-F2G cross-site scripting",
+      "description": "Westermo Lynx 206-F2G is vulnerable to cross-site scripting, caused by improper validation of user-supplied input. A remote authenticated attacker could exploit this vulnerability using the forward.0.domain parameter to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+      "risk_level": 5.4,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "Low",
+        "userinteraction": "None",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "Low",
+        "integrity_impact": "Low",
+        "availability_impact": "None",
+        "remediation_level": "Unavailable"
+      },
+      "temporal_score": 4.8,
+      "remedy": "No remedy available as of January 23, 2024.",
+      "remedy_fmt": "<p>No remedy available as of January 23, 2024.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "westermo-cve202340143-xss",
+      "stdcode": [
+        "CVE-2023-40143"
+      ],
+      "platforms_affected": [
+        "Westermo Lynx 206-F2G 4.24"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Cross-Site Scripting",
+      "references": [
+        {
+          "link_target": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04",
+          "link_name": "ICSA-24-023-04",
+          "description": "Westermo Lynx 206-F2G"
+        },
+        {
+          "link_target": "https://www.westermo.com/",
+          "link_name": "Westermo Web site",
+          "description": "Westermo"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2023-40143",
+          "link_name": "CVE-2023-40143",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Reasonable",
+      "uuid": "932702972143b199dd4f1e3a6a0cb1ea"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280237,
+      "updateid": 185531,
+      "inserted": true,
+      "variant": "single",
+      "title": "Linux Kernel information disclosure",
+      "description": "Linux Kernel could allow a local authenticated attacker to obtain sensitive information, caused by a use-after-free flaw in the __ext4_remount function at fs/ext4/super.c. By sending a specially crafted request, an attacker could exploit this vulnerability to obtain sensitive information, and use this information to launch further attacks against the affected system.",
+      "risk_level": 6.7,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "High",
+        "userinteraction": "None",
+        "scope": "Unchanged",
+        "access_vector": "Local",
+        "access_complexity": "Low",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.8,
+      "remedy": "Refer to Linux Kernel Web site for patch, upgrade or suggested workaround information. See references.",
+      "remedy_fmt": "<p>Refer to Linux Kernel Web site for patch, upgrade or suggested workaround information. See references.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "linux-kernel-cve20240775-info-disc",
+      "stdcode": [
+        "CVE-2024-0775"
+      ],
+      "platforms_affected": [
+        "Linux Kernel 6.3.3",
+        "Linux Kernel 6.4",
+        "Linux Kernel 6.6"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Obtain Information",
+      "references": [
+        {
+          "link_target": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.3",
+          "link_name": "Linux Kernel Web site",
+          "description": "commit 536ecbd569cb99b2e8a4422c43926590c7893aef"
+        },
+        {
+          "link_target": "https://www.incibe.es/en/incibe-cert/early-warning/vulnerabilities/cve-2024-0775",
+          "link_name": "INCIBE Web site",
+          "description": "CVE-2024-0775"
+        },
+        {
+          "link_target": "https://scm.linefinity.com/common/linux-stable/commit/4c0b4818b1f636bc96359f7817a2d8bab6370162",
+          "link_name": "linefinity scm Web site",
+          "description": "ext4: improve error recovery code paths in __ext4_remount()"
+        },
+        {
+          "link_target": "https://bugzilla.redhat.com/show_bug.cgi?id=2259414",
+          "link_name": "Red Hat Bugzilla - Bug 2259414",
+          "description": "CVE-2024-0775 kernel: use-after-free while changing the mount option in __ext4_remount leading"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-0775",
+          "link_name": "CVE-2024-0775",
+          "description": "A use-after-free flaw was found in the __ext4_remount in fs/ext4/super.c in ext4 in the Linux kernel. This flaw allows a local user to cause an information leak problem while freeing the old quota file names before a potential failure, leading to a use-after-free."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "49b366396a669322489b71207524d60f"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280282,
+      "updateid": 185538,
+      "inserted": true,
+      "variant": "single",
+      "title": "Ministry of Agriculture, Forestry and Fisheries Electronic Delivery Check System XML external entity injection",
+      "description": "Ministry of Agriculture, Forestry and Fisheries Electronic Delivery Check System is vulnerable to an XML external entity injection (XXE) attack when processing XML data, caused by a weakly configured XML parser. By persuading a victim to use specially crafted XML content, a remote attacker could exploit this vulnerability to read arbitrary files, conduct an SSRF attack, or achieve other system impacts.",
+      "risk_level": 3.3,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "Required",
+        "scope": "Unchanged",
+        "access_vector": "Local",
+        "access_complexity": "Low",
+        "confidentiality_impact": "Low",
+        "integrity_impact": "None",
+        "availability_impact": "None",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 2.9,
+      "remedy": "Refer to Ministry of Agriculture, Forestry and Fisheries Web site for patch, upgrade or suggested workaround information. See references.",
+      "remedy_fmt": "<p>Refer to Ministry of Agriculture, Forestry and Fisheries Web site for patch, upgrade or suggested workaround information. See references.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "miaff-cve202422380-xxe",
+      "stdcode": [
+        "CVE-2024-22380"
+      ],
+      "platforms_affected": [
+        "Japanese Ministry of Agriculture, Forestry and Fisheries Electronic Delivery Check System 14.0.001.002"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Gain Access",
+      "references": [
+        {
+          "link_target": "http://jvn.jp/en/jp/JVN01434915/index.html",
+          "link_name": "JVN#01434915",
+          "description": "Improper restriction of XML external entity references (XXE) in \"Electronic Delivery Check System (Ministry of Agriculture, Forestry and Fisheries The Agriculture and Rural Development Project Version)\""
+        },
+        {
+          "link_target": "https://www.maff.go.jp/j/nousin/seko/nouhin_youryou/densi.html",
+          "link_name": "Ministry of Agriculture, Forestry and Fisheries Web site",
+          "description": "Electronic delivery check system (Ministry of Agriculture, Forestry and Fisheries Agriculture and Rural Development Project version)"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-22380",
+          "link_name": "CVE-2024-22380",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "815f0cc8cd6e497321173dec9c4b822e"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280245,
+      "updateid": 185532,
+      "updated": true,
+      "variant": "single",
+      "title": "Westermo Lynx 206-F2G cross-site scripting",
+      "description": "Westermo Lynx 206-F2G is vulnerable to cross-site scripting, caused by improper validation of user-supplied input. A remote authenticated attacker could exploit this vulnerability using the autorefresh parameter to inject malicious script into a Web page which would be executed in a victim's Web browser within the security context of the hosting Web site, once the page is viewed. An attacker could use this vulnerability to steal the victim's cookie-based authentication credentials.",
+      "risk_level": 5.4,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "Low",
+        "userinteraction": "None",
+        "scope": "Unchanged",
+        "access_vector": "Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "Low",
+        "integrity_impact": "Low",
+        "availability_impact": "None",
+        "remediation_level": "Unavailable"
+      },
+      "temporal_score": 4.8,
+      "remedy": "No remedy available as of January 23, 2024.",
+      "remedy_fmt": "<p>No remedy available as of January 23, 2024.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "westermo-cve202345222-xss",
+      "stdcode": [
+        "CVE-2023-45222"
+      ],
+      "platforms_affected": [
+        "Westermo Lynx 206-F2G 4.24"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Cross-Site Scripting",
+      "references": [
+        {
+          "link_target": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04",
+          "link_name": "ICSA-24-023-04",
+          "description": "Westermo Lynx 206-F2G"
+        },
+        {
+          "link_target": "https://www.westermo.com/",
+          "link_name": "Westermo Web site",
+          "description": "Westermo"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2023-45222",
+          "link_name": "CVE-2023-45222",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Reasonable",
+      "uuid": "932702972143b199dd4f1e3a6a0cbc45"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280234,
+      "updateid": 185528,
+      "inserted": true,
+      "variant": "single",
+      "title": "ELECOM routers command execution",
+      "description": "ELECOM routers could allow a remote authenticated attacker within the local network to execute arbitrary commands on the system, caused by an OS command injection vulnerability. An attacker could exploit this vulnerability to execute arbitrary commands on the system.",
+      "risk_level": 6.8,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "High",
+        "userinteraction": "None",
+        "scope": "Unchanged",
+        "access_vector": "Adjacent Network",
+        "access_complexity": "Low",
+        "confidentiality_impact": "High",
+        "integrity_impact": "High",
+        "availability_impact": "High",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 5.9,
+      "remedy": "Refer to ELECOM Security Bulletin EL39-218 for patch, upgrade or suggested workaround information. See References.",
+      "remedy_fmt": "<p>Refer to ELECOM Security Bulletin EL39-218 for patch, upgrade or suggested workaround information. See References.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "elecom-cve202422372-cmd-exec",
+      "stdcode": [
+        "CVE-2024-22372"
+      ],
+      "platforms_affected": [
+        "Elecom WRC-X1800GS-B 1.13",
+        "Elecom WRC-X1800GSA-B 1.13",
+        "Elecom WRC-X1800GSH-B 1.13"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Gain Access",
+      "references": [
+        {
+          "link_target": "http://jvn.jp/en/vu/JVNVU90908488/index.html",
+          "link_name": "JVNVU#90908488",
+          "description": "ELECOM wireless LAN routers vulnerable to OS command injection"
+        },
+        {
+          "link_target": "https://www.elecom.co.jp/news/security/20240123-01/",
+          "link_name": "ELECOM Security Bulletin EL39-218",
+          "description": "Notice of Firmware Update to Improve Security of Wireless LAN Routers"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-22372",
+          "link_name": "CVE-2024-22372",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "2b14c21c9236a6b33ebd95d13d88df6b"
+    },
+    {
+      "type": "vulnerability",
+      "xfdbid": 280294,
+      "updateid": 185540,
+      "inserted": true,
+      "variant": "single",
+      "title": "Spoon weak security",
+      "description": "Spoon could provide weaker than expected security, caused by the use of a hardcoded cryptographic key. A remote attacker could exploit this vulnerability to launch further attacks on the system.",
+      "risk_level": 4,
+      "cvss": {
+        "version": "3.0",
+        "privilegesrequired": "None",
+        "userinteraction": "None",
+        "scope": "Unchanged",
+        "access_vector": "Local",
+        "access_complexity": "Low",
+        "confidentiality_impact": "Low",
+        "integrity_impact": "None",
+        "availability_impact": "None",
+        "remediation_level": "Official Fix"
+      },
+      "temporal_score": 3.5,
+      "remedy": "Upgrade to the latest version of Spoon (8.6.1 or later), available from the Google Play Store Web site. See references.",
+      "remedy_fmt": "<p>Upgrade to the latest version of Spoon (8.6.1 or later), available from the Google Play Store Web site. See references.</p>",
+      "reported": "2024-01-23T00:00:00Z",
+      "tagname": "spoon-cve202423453-weak-security",
+      "stdcode": [
+        "CVE-2024-23453"
+      ],
+      "platforms_affected": [
+        "Spoonradio.co Spoon 7.11.1",
+        "Spoonradio.co Spoon 8.6.0"
+      ],
+      "exploitability": "Unproven",
+      "consequences": "Gain Access",
+      "references": [
+        {
+          "link_target": "http://jvn.jp/en/jp/JVN96154238/index.html",
+          "link_name": "JVN#96154238",
+          "description": "Android App \"Spoon\" uses a hard-coded API key for an external service"
+        },
+        {
+          "link_target": "https://play.google.com/store/apps/details?id=co.spoonme&hl=en_US&pli=1",
+          "link_name": "Google Play Store Web site",
+          "description": "Spoonradio.co Spoon"
+        },
+        {
+          "link_target": "https://www.cve.org/CVERecord?id=CVE-2024-23453",
+          "link_name": "CVE-2024-23453",
+          "description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided."
+        }
+      ],
+      "report_confidence": "Confirmed",
+      "uuid": "3200ea6240985536c9caa5361fa72283"
     }
   ],
   "previousPage": "",

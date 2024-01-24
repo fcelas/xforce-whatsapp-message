@@ -44,16 +44,19 @@ for vulnerability in vulnerabilities:
     references = vulnerability.get('references', [])
     cve_links = [ref['link_target'] for ref in references if isCVELink(ref.get('link_target', ''))]
 
-    whatsapp_message = f"*NOVA VULNERABILIDADE*\n\n{title}\n{stdcode}\n{description}\nData (UTC-3): {reported}\nConsequence: {consequence}\nExploitability: {exploitability}\nPlatform Affected: {platform_affected}"
+    description = description.replace('"', '').replace("'", '')
+
+    whatsapp_message = f"*NOVA VULNERABILIDADE*\n\n{title}\n{stdcode}\n{description}\nData (UTC-3): {reported}\nConsequence: {consequence}\nExploitability: {exploitability}\nPlatform Affected: {platform_affected}"    
 
     if cve_links:
         whatsapp_message += "\n\n" + "\n".join(cve_links)
-
+    
     phones_str  = ",".join(whatsapp_phone_numbers)
 
-    curl_command = f'curl -i -X POST \'https://graph.facebook.com/v18.0/{whatsapp_phone_id}/messages\' -H \'Authorization: Bearer {whatsapp_token}\' -H \'Content-Type: application/json\' -d \'{{ "messaging_product": "whatsapp", "to": "5585996873719", "type": "text", "text": {{ "preview_url": false, "body": "*IBM X-FORCE: NOVA VULNERABILIDADE*\\n\\n*{title}*\\n\\n_{stdcode}_\\n\\nData UTC-3: {reported}\\n\\nTipo: {consequence}\\n\\nExploitability: {exploitability}\\n\\n{description}\\n\\n{", ".join(cve_links)}" }} }}\''
+    curl_command = f'curl -i -X POST \'https://graph.facebook.com/v18.0/{whatsapp_phone_id}/messages\' -H \'Authorization: Bearer {whatsapp_token}\' -H \'Content-Type: application/json\' -d \'{{ "messaging_product": "whatsapp", "to": "{phones_str}", "type": "text", "text": {{ "preview_url": false, "body": "*IBM X-FORCE: NOVA VULNERABILIDADE*\\n\\n*{title}*\\n\\n_{stdcode}_\\n\\nData UTC-3: {reported}\\n\\nTipo: {consequence}\\n\\nExploitability: {exploitability}\\n\\n{description}\\n\\n{"\n".join(cve_links)}" }} }}\''
 
-
+    print(whatsapp_message)
     print(curl_command)
     subprocess.run(curl_command, shell=True)
+
 
